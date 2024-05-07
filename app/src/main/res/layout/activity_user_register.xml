@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first_selaction_page"
+    tools:context=".UserRegister">
+
+    <ImageView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="sans-serif"
+        android:src="@drawable/register"
+        android:textAlignment="center"
+        android:textColor="#C28036"
+        android:textSize="60sp"
+        android:textStyle="bold|italic" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/registerf"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_below="@+id/rcTextPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#093660"
+        android:text="Register"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/rusername"
+        android:layout_width="309dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rounded_cover"
+        android:ems="10"
+        android:hint="User name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Remail"
+        android:layout_width="309dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/rusername"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_cover"
+        android:ems="10"
+        android:hint="Email-E.G.-Abc@.gmail.com"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/rnic"
+        android:layout_width="309dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/Remail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/rounded_cover"
+        android:ems="10"
+        android:hint="NIC-200..must be 12 characters"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/rTextPhone"
+        android:layout_width="309dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/rnic"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/rounded_cover"
+        android:ems="10"
+        android:hint="must be 10 characters"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/rTextPassword"
+
+        android:layout_width="309dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/rTextPhone"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/rounded_cover"
+        android:ems="10"
+        android:hint="Password-E.G.-Abc@23"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/rcTextPassword"
+        android:layout_width="309dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/rTextPassword"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_cover"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="User Name"
+        android:textAlignment="viewStart"
+        android:textColor="#F32152"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rusername"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Email"
+        android:textColor="#F32152"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Remail"
+        android:layout_alignBottom="@+id/rnic"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="sans-serif-black"
+        android:text="N.I.C.Number"
+        android:textColor="#F32152"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/mb"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_below="@+id/rnic"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Phone Number"
+        android:textColor="#F32152"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rTextPhone"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-3dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Password"
+        android:textColor="#F32152"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rTextPassword"
+        android:layout_alignBottom="@+id/rcTextPassword"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Confirm Password"
+        android:textColor="#F32152"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>

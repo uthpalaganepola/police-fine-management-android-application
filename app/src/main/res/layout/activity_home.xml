@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first_selaction_page"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="411dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="27dp"
+        android:fontFamily="cursive"
+        android:text="User Home"
+        android:textColor="#E2882E"
+        android:textSize="96sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="215dp"
+        android:layout_height="79dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="cursive"
+        android:text="Welcome!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#E80909"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/userpro"
+        android:layout_width="292dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="19dp"
+        android:backgroundTint="#093660"
+        android:text="User Profile"
+        android:textColorLink="#093660"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="283dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/fines"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="42dp"
+        android:backgroundTint="#093660"
+        android:text="Payment"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userpro" />
+
+    <Button
+        android:id="@+id/fines"
+        android:layout_width="285dp"
+        android:layout_height="77dp"
+        android:layout_below="@+id/userpro"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#093660"
+        android:text="Fines"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pay"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="178dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/textView9"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/textView10"
+        android:fontFamily="casual"
+        android:textAlignment="viewStart"
+        android:textColor="#E60909"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        tools:layout_editor_absoluteY="175dp" />
+
+</RelativeLayout>
