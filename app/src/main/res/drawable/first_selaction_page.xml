@@ -1,0 +1,26 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shape drawable as the background -->
+    <item>
+        <shape>
+            <gradient
+                android:type="linear"
+                android:angle="100"
+                android:startColor="#092735"
+                android:endColor="#AE372825"/>
+        </shape>
+    </item>
+
+    <!-- Image drawable as the foreground -->
+    <item
+        android:drawable="@drawable/background"
+        android:width="425dp"
+        android:gravity="center"
+        android:left="16dp"
+        android:right="16dp"
+        android:top="16dp"
+        android:bottom="16dp"/>
+
+</layer-list>
+
+

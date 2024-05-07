@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "971476901644",
+    "firebase_url": "https://police-fine-management-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "police-fine-management",
+    "storage_bucket": "police-fine-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971476901644:android:83b92712115df57e2a7329",
+        "android_client_info": {
+          "package_name": "com.example.policemangementsystemlogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE9VyZe1cX8K6plBEQu7STpIMtT2JdQck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

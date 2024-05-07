@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first_selaction_page"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="-37dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="cursive"
+        android:text="Driver Login"
+        android:textColor="#E2882E"
+        android:textSize="64dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="230dp"
+        android:layout_height="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="95dp"
+        app:srcCompat="@drawable/driveru" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="309dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="4dp"
+
+        android:background="@drawable/rounded_cover"
+        android:ems="5"
+        android:hint="NIC E.G.-2001.."
+        android:inputType="number"
+        android:textColor="#101010"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="309dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/rounded_cover"
+        android:drawableTint="#0E0E0E"
+        android:ems="10"
+        android:hint="Your Password -E.G.-Abc@123"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="184dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="sans-serif"
+        android:text="NIC Number "
+        android:textAlignment="textStart"
+        android:textColor="#F32152"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="126dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/editTextNumberDecimal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="203dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Password "
+        android:textColor="#F22152"
+        android:textSize="22dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="389dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/fogotpw"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="43dp"
+        android:backgroundTint="#093660"
+        android:text="Login"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_below="@+id/log"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="41dp"
+        android:text="You Haven't account?"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/log"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="62dp"
+        android:layout_toEndOf="@+id/textView4"
+        android:backgroundTint="#00E1D3D3"
+        android:text="Sign Up!"
+        android:textAlignment="viewStart"
+        android:textColor="#ED0856"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/fogotpw"
+        android:layout_width="182dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/editTextTextPassword2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="229dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="0dp"
+        android:backgroundTint="#00E1D3D3"
+        android:fontFamily="sans-serif-black"
+        android:text="Forgot Password?"
+        android:textColor="#ED0D67"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="67dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignEnd="@+id/editTextNumberDecimal"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="304dp"
+        app:srcCompat="@drawable/nic" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="72dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/fogotpw"
+        android:layout_below="@+id/textView2"
+        android:layout_alignEnd="@+id/editTextTextPassword2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="291dp"
+        android:layout_marginBottom="-12dp"
+        app:srcCompat="@drawable/pw" />
+
+
+</RelativeLayout>
